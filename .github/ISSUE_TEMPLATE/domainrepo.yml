@@ -1,5 +1,5 @@
 name: 💡 Suggest a Domain Repository
-description: Provide details about a domain repository import to your discipline
+description: Provide details about a domain repository important to your discipline
 title: "[DataRepo] <add short title here>"
 labels: ["data repository", "awaiting triage"]
 assignees:
