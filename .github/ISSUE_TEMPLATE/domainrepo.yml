@@ -1,18 +1,18 @@
 name: 💡 Suggest a Domain Repository
 description: Provide details about a domain repository import to your discipline
-title: "[Data ] <description>"
+title: "[DataRepo] <add short title here>"
 labels: ["data repository", "awaiting triage"]
 assignees:
   - stuchalk
 body:
-  - type: textarea
-    id: title
+  - type: input
+    id: name
     attributes:
-      label: Repository Name/Title
+      label: Repository Name
       description: What is the data repository called?
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: url
     attributes:
       label: Repository URL
@@ -20,7 +20,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: description
+    id: domain
     attributes:
       label: Domain
       description: Please select which domain this supports
@@ -130,8 +130,8 @@ body:
       default: 0
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: comments
     attributes:
       label: Comments
-      description: Please add screenshots of the before and/or after the proposed changes.
+      description: Add a short comment about the data repository (optional)
