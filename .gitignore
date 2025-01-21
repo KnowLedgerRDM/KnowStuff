@@ -1,2 +1,4 @@
 .idea/
 code/
+Pipfile
+Pipfile.lock
