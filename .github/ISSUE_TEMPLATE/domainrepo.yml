@@ -1,0 +1,137 @@
+name: 💡 Suggest a Domain Repository
+description: Provide details about a domain repository import to your discipline
+title: "[Data ] <description>"
+labels: ["data repository", "awaiting triage"]
+assignees:
+  - stuchalk
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: Repository Name/Title
+      description: What is the data repository called?
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: Repository URL
+      description: Where is the data respository?
+    validations:
+      required: true
+  - type: dropdown
+    id: description
+    attributes:
+      label: Domain
+      description: Please select which domain this supports
+      multiple: false
+      options:
+        - "General"
+        - "Acoustics"
+        - "Agriculture"
+        - "Anatomy"
+        - "Anthropology"
+        - "Applied Mathematics"
+        - "Archaeology"
+        - "Architecture"
+        - "Artificial Intelligence"
+        - "Astrobiology"
+        - "Astrochemistry"
+        - "Astrometry"
+        - "Astronomy"
+        - "Atmospheric Science"
+        - "Behavioural Science"
+        - "Biochemistry"
+        - "Bioethics"
+        - "Biogeography"
+        - "Bioinformatics"
+        - "Biology"
+        - "Biomedical Engineering"
+        - "Biophysics"
+        - "Biopsychology"
+        - "Biostatistics"
+        - "Biotechnology"
+        - "Botany"
+        - "Chemical Engineering"
+        - "Chemistry"
+        - "Cognitive Science"
+        - "Communication"
+        - "Computer Science"
+        - "Computer Security"
+        - "Cryptography"
+        - "Crystallography"
+        - "Cultural Studies"
+        - "Cybernetics"
+        - "Dentistry"
+        - "Earth Science"
+        - "Ecology"
+        - "Economics"
+        - "Education"
+        - "Engineering"
+        - "Environmental Science"
+        - "Epidemiology"
+        - "Ergonomics"
+        - "Ethnic Studies"
+        - "Ethnobiology"
+        - "Ethnology"
+        - "Ethology"
+        - "Food Science"
+        - "Forensics"
+        - "Forestry"
+        - "Genetics"
+        - "Geochemistry"
+        - "Geodesy"
+        - "Geography"
+        - "Geological"
+        - "Geology"
+        - "Gerontology"
+        - "Glaciology"
+        - "Health Science"
+        - "Hydrology"
+        - "Immunology"
+        - "Information Science"
+        - "Library Science"
+        - "Limnology"
+        - "Linguistics"
+        - "Machine Learning"
+        - "Materials Science"
+        - "Mathematics"
+        - "Medicine"
+        - "Metallurgy"
+        - "Meteorology"
+        - "Metrology"
+        - "Military Science"
+        - "Museology"
+        - "Neuroscience"
+        - "Nursing"
+        - "Oceanography"
+        - "Paleontology"
+        - "Palynology"
+        - "Parasitology"
+        - "Pharmacology"
+        - "Phylogeny"
+        - "Physics"
+        - "Physiology"
+        - "Planetary Science"
+        - "Political Science"
+        - "Quantum Mechanics"
+        - "Social Sciences"
+        - "Soil Science"
+        - "Space Science"
+        - "Sports Science"
+        - "Statistics"
+        - "Systems Science"
+        - "Toxicology"
+        - "Type Theory"
+        - "Urban Planning"
+        - "Veterinary Science"
+        - "Volcanology"
+        - "Zoology"
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Please add screenshots of the before and/or after the proposed changes.
