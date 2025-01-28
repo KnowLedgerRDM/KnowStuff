@@ -1,0 +1,137 @@
+name: 💡 Suggest a Best Practice in RDM
+description: Provide details about a API Tool important to your discipline
+title: "[BestPractice] <add short title here>"
+labels: ["best practice", "awaiting triage"]
+assignees:
+  - stuchalk
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Best Practice Name
+      description: What is the API tool called?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Best Practice URL
+      description: Where is the API tool?
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: Please select which domain this supports
+      multiple: false
+      options:
+        - "General"
+        - "Acoustics"
+        - "Agriculture"
+        - "Anatomy"
+        - "Anthropology"
+        - "Applied Mathematics"
+        - "Archaeology"
+        - "Architecture"
+        - "Artificial Intelligence"
+        - "Astrobiology"
+        - "Astrochemistry"
+        - "Astrometry"
+        - "Astronomy"
+        - "Atmospheric Science"
+        - "Behavioural Science"
+        - "Biochemistry"
+        - "Bioethics"
+        - "Biogeography"
+        - "Bioinformatics"
+        - "Biology"
+        - "Biomedical Engineering"
+        - "Biophysics"
+        - "Biopsychology"
+        - "Biostatistics"
+        - "Biotechnology"
+        - "Botany"
+        - "Chemical Engineering"
+        - "Chemistry"
+        - "Cognitive Science"
+        - "Communication"
+        - "Computer Science"
+        - "Computer Security"
+        - "Cryptography"
+        - "Crystallography"
+        - "Cultural Studies"
+        - "Cybernetics"
+        - "Dentistry"
+        - "Earth Science"
+        - "Ecology"
+        - "Economics"
+        - "Education"
+        - "Engineering"
+        - "Environmental Science"
+        - "Epidemiology"
+        - "Ergonomics"
+        - "Ethnic Studies"
+        - "Ethnobiology"
+        - "Ethnology"
+        - "Ethology"
+        - "Food Science"
+        - "Forensics"
+        - "Forestry"
+        - "Genetics"
+        - "Geochemistry"
+        - "Geodesy"
+        - "Geography"
+        - "Geological"
+        - "Geology"
+        - "Gerontology"
+        - "Glaciology"
+        - "Health Science"
+        - "Hydrology"
+        - "Immunology"
+        - "Information Science"
+        - "Library Science"
+        - "Limnology"
+        - "Linguistics"
+        - "Machine Learning"
+        - "Materials Science"
+        - "Mathematics"
+        - "Medicine"
+        - "Metallurgy"
+        - "Meteorology"
+        - "Metrology"
+        - "Military Science"
+        - "Museology"
+        - "Neuroscience"
+        - "Nursing"
+        - "Oceanography"
+        - "Paleontology"
+        - "Palynology"
+        - "Parasitology"
+        - "Pharmacology"
+        - "Phylogeny"
+        - "Physics"
+        - "Physiology"
+        - "Planetary Science"
+        - "Political Science"
+        - "Quantum Mechanics"
+        - "Social Sciences"
+        - "Soil Science"
+        - "Space Science"
+        - "Sports Science"
+        - "Statistics"
+        - "Systems Science"
+        - "Toxicology"
+        - "Type Theory"
+        - "Urban Planning"
+        - "Veterinary Science"
+        - "Volcanology"
+        - "Zoology"
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: comments
+    attributes:
+      label: Comments
+      description: Add a short comment about the API tool (optional)
