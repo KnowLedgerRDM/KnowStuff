@@ -1,4 +1,4 @@
-# Data Repositories (not Data Repositories)
+# Data Repositories (not Research Databases)
 
 <ul id='list'>
 <li><a href="https://github.com/perma-id/w3id.org" target="_blank">w3id.org (General)</a> Submitted by: <em><a href="https://github.com/rgiessmann">rgiessmann</a></em><br/>w3id.org lets me mint my own persistent unique resolvable identifiers (PURLs) without paying anything</li>
