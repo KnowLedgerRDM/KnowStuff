@@ -5,7 +5,7 @@ integrate all the cool things that you use in your research.  But this project i
 us what you use so we can catalog it here and work toward common approaches to supporting as many as possible.
 
 Starting out we can think of the following different categories of resources/tools:
-- [API tool or service]()
+- [API tool or service](resources/apitools.md)
 - [best practices for research data management](resources/bestpractices.md)
 - [command line tools used in research](resources/cltools.md)
 - [databases with domain specific or general metadata and/or data](resources/databases.md)
