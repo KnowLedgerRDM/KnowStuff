@@ -1,4 +1,4 @@
 .idea/
-code/
 Pipfile
 Pipfile.lock
+.issues_local.py
