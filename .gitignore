@@ -2,3 +2,4 @@
 Pipfile
 Pipfile.lock
 .issues_local.py
+.github/workflows/issues.yml
